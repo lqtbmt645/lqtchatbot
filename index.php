@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	require_once 'config.php'; //lấy thông tin từ config
 	$conn = mysqli_connect($DBHOST, $DBUSER, $DBPW, $DBNAME); // kết nối data
 	$sql = "SELECT ID, trangthai, gioitinh, hangcho, ketnoi FROM users";
@@ -29,7 +29,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Welcome To UET ChatBot</title>
+    <title>Welcome To ChatBot</title>
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -84,7 +84,7 @@
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="index.html">UET CHATBOT</a>
+                <a class="navbar-brand" href="index.html">CHÀO MỪNG BẠN ĐẾN VỚI CHATBOT - CƯMGAR</a>
             </div>
             
         </div>
@@ -99,13 +99,13 @@
                     <img src="images/user.jpg" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">UET ChatBot</div>
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CMG ChatBot</div>
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="https://www.facebook.com/UETVNUChatBot"><i class="material-icons">person</i>Fanpage</a></li>
+                            <li><a href="https://www.facebook.com/103063861363076"><i class="material-icons">person</i>Fanpage</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="https://m.me/UETVNUChatBot"><i class="material-icons">message</i>Inbox</a></li>
+                            <li><a href="https://m.me/103063861363076"><i class="material-icons">message</i>Inbox</a></li>
                         </ul>
                     </div>
                 </div>
@@ -128,10 +128,10 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2018 - 20xx <a href="https://www.facebook.com/UETVNUChatBot">UET CHATBOT</a>.
+                    &copy; 2020 - 2021 <a href="https://www.facebook.com/103063861363076">CMG CHATBOT</a>.
                 </div>
                 <div class="version">
-                    <b>Version: </b> 1.0.0
+                    <b>Version: </b> 1.0.1
                 </div>
             </div>
             <!-- #Footer -->
@@ -200,7 +200,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="card">
                         <div class="header">
-                            <h2>USER INFOS</h2>
+                            <h2>THÔNG TIN NGƯỜI DÙNG</h2>
                         </div>
                         <div class="body">
                             <div class="table-responsive">
@@ -210,7 +210,7 @@
                                             <th>#</th>
                                             <th>UID</th>
                                             <th>Status</th>
-											<th>UID2</th>
+					    <th>UID2</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -248,7 +248,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="card">
                         <div class="header">
-                            <h2>STATS</h2>
+                            <h2>BIỂU ĐỒ NGƯỜI DÙNG</h2>
                         </div>
                         <div class="body">
                             <div id="donut_chart" class="dashboard-donut-chart"></div>
@@ -268,7 +268,7 @@
 				  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=266578183986233&autoLogAppEvents=1';
 				  fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));</script>
-				<div class="fb-page" data-href="https://www.facebook.com/UETVNUChatBot" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UETVNUChatBot" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UETVNUChatBot">UET ChatBot</a></blockquote></div>
+				<div class="fb-page" data-href="https://www.facebook.com/103063861363076" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/103063861363076" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/103063861363076">UET ChatBot</a></blockquote></div>
 			</div>
         </div>
     </section>
